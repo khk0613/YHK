@@ -11,16 +11,11 @@
  $fang_spotted = $_POST['fangspotted'];
  $email = $_POST['email'];
 
-
 echo 'Thanks for submitting the form.<br/>';
 echo 'You were abducted' .$when_it_happend;
 echo 'and were gone for' .$how_long.'<br/>';
 echo 'Describe them:'.$alien_description . '<br/>';
-echo 'Your email address is ' .$email;
-
+echo 'Your email address is ' .$email . '<br />';
 ?>
-
-
-
 </body>
 
