@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* web font */
+/*@import url('http://api.mobilis.co.kr/webfonts/v2/css/NanumBarunGothicWeb');*/
+/*@import url("https://googledrive.com/host/0BxmAw3HA4YGCflZpYWI1M3BIYUI2Zm9CUDhKaXVqZGFYV29CQ05xN2pKTlo5YjVWUkJPeWs/nanum-barun-gothic-bold.css"); @import url("https://googledrive.com/host/0BxmAw3HA4YGCfkJWdlpTdWd6NndmT3BZaXR5ek1oSTBsYVotUmJuQWtKSnV2QVJXa3g4dn/nanum-barun-gothic-light.css"); @import url("https://googledrive.com/host/0BxmAw3HA4YGCfmhCUFc0SGdQbVlJcllDU2NPYUp6WlFDT1RPem5Eb2lMZm16c0R4N0J2VVU/nanum-barun-gothic-regular.css"); @import url("https://googledrive.com/host/0BxmAw3HA4YGCflFhbGlxS01kS0RnSHFDYmlUZ1dVU2VCRGRiSGlnak1uN2lNUHVwRy1lUVU/nanum-barun-gothic-ultralight.css");*/
+
+@font-face {
+	font-family: "NanumBarunGothic";
+	font-weight: bold;
+	src:url("../fonts/nanumbarungothicbold.woff") format("woff");
+
+}
+@font-face {
+	font-family: "NanumBarunGothic";
+	font-weight: 400;
+	src:url("../fonts/nanumbarungothicregular.woff") format("woff");
+
+}
+@font-face {
+	font-family: "NanumBarunGothic";
+	font-weight: 300;
+	src:url("../fonts/nanumbarungothiclight.woff") format("woff");
+
+}
+@font-face {
+	font-family: "NanumBarunGothic";
+	font-weight: 100;
+	src:url("../fonts/nanumbarungothicultralight.woff") format("woff");
+
+}
+
+/* reset */
+html,body{margin:0px;padding:0px;width:100%;font-size:12px;font-family:"NanumBarunGothic";-webkit-text-size-adjust:none}
+ul,ol,li,dl,dd,dt,input,h1,h2,h3,h4,h5,h6,p,b,input,button,textarea,fieldset,legend,td,th{margin:0px;padding:0px;font-weight:normal}
+li{list-style:none}
+fieldset,img,a{border:0px}
+a{text-decoration:none}
+legend,.blind{position:absolute;top:0;left:-10000px;width:0;height:0;overflow:hidden;font-size:0;line-height:0}
+caption{display:none}
+button,label{cursor:pointer}
+button{overflow:visible\9}	/* button fix for ie8 */
+input,textarea,select,button{font-family:"NanumBarunGothic"}
+table{width:100%;border-collapse:collapse;border-spacing:0;text-align:left}
+table th, table td{text-align:left;}
+input::-webkit-input-placeholder{color:#bdbdbd}
+input::-moz-placeholder{color:#bdbdbd}
+input:-moz-placeholder{color:#bdbdbd}
+input:-ms-input-placeholder{color:#bdbdbd}
+textarea::-webkit-input-placeholder{color:#bdbdbd}
+textarea::-moz-placeholder{color:#bdbdbd}
+textarea:-moz-placeholder{color:#bdbdbd}
+textarea:-ms-input-placeholder{color:#bdbdbd}
+input:focus::-webkit-input-placeholder{color:transparent!important}
+input:focus::-moz-placeholder{color:transparent!important}
+input:focus:-moz-placeholder{color:transparent!important}
+input:focus:-ms-input-placeholder{color:transparent!important}
+textarea:focus::-webkit-input-placeholder{color:transparent!important}
+textarea:focus::-moz-placeholder{color:transparent!important}
+textarea:focus:-moz-placeholder{color:transparent!important}
+textarea:focus:-ms-input-placeholder{color:transparent!important}
+header, footer, section, article, aside, nav, address { display: block; margin:0; } /* ie8 */
+a, li, ul, div, span, strong, b, i, td, tr, table, p, h1,h2,h3,h4,h5,h6 {font-family:"NanumBarunGothic"; letter-spacing:-0.025em;}
+.mg{margin: 0!important;}
+.mgt{margin-top: 0!important;}
+.mgr{margin-right: 0!important;}
+.mgb{margin-bottom: 0!important;}
+.mgl{margin-left: 0!important;}
+.pd{padding: 0!important;}
+.pdt{padding-top: 0!important;}
+.pdr{padding-right: 0!important;}
+.pdb{padding-bottom: 0!important;}
+.pdl{padding-left: 0!important;}
+/*.blind{position:absolute; top:0px; left:0px; overflow:hidden; display:inline-block !important; width:1px !important; height:1px !important; margin:0 !important; font-size:0 !important; line-height:0 !important;}*/
+.bgnone{background: none!important;}
+.bdnone{border: none !important;}
+.bdrnone{border-right: none !important;}
+.bdbnone{border-bottom: none !important;}
+.blind {position:absolute; top:-9999px; left:-9999px; text-indent:-9999px; display:none; font-size:0;}
+.cf {*zoom:1;}
+.cf:after {display:block; content:''; clear:both;}
+
+/*--- S: 접근성 히든바 --- */
+#accNav{position: absolute; top:0; left:0; z-index:500; width: 100%; height: auto;}
+#accNav p {height: 0; word-wrap:break-word;}
+#accNav p a {position: absolute; top:0; left:0; display: block; overflow: hidden; width: 100%; height:0px; margin: 0 0 -1px -1px; text-align: center; color: #000; white-space: nowrap; font-weight: bold;}
+#accNav p a:focus{height: auto;background: red; width: 100%; padding: 10px 0;}
+/*--- E: 접근성 히든바 --- */
+
+.clear_wrap:before,.clear_wrap:after{content:" ";display:table}
+.clear_wrap:after{clear:both}
+.clear_wrap{*zoom:1}
+.clear_ine{clear:both}
+
+/* 영문 폰트 */
+.eng{font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
+
+/* 스크롤바 */
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:6px!important;background-color:rgba(134,134,134,0.7)!important}

@@ -1,0 +1,83 @@
+<?php
+if (!defined('_GNUBOARD_')) exit;
+$bo_subject='보도자료';
+$list=array (
+  0 => 
+  array (
+    'wr_id' => '7',
+    'wr_num' => '-1',
+    'wr_reply' => '',
+    'wr_parent' => '7',
+    'wr_is_comment' => '0',
+    'wr_comment' => '1',
+    'wr_comment_reply' => '',
+    'ca_name' => '',
+    'wr_option' => 'html1',
+    'wr_subject' => '[보도] 지붕 방수공사 최첨단 공법 \'하이포텍스쿨\'',
+    'wr_content' => '<p><strong>피플투데이 보도</strong><br><font color="#0021b0"><strong>지붕 방수공사 최첨단 공법 ‘하이포텍스쿨’이란?</strong></font></font><span style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal; background-color: rgb(255, 255, 255);">&nbsp;</span><br style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal;"><br style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal;"><span style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal; background-color: rgb(255, 255, 255);">-&gt;&nbsp;</span><a href="http://epeopletoday.com/detail.php?number=1888&amp;thread=11r02" style="color: rgb(102, 102, 102); text-decoration: none; font-family: \'Apple SD Gothic Neo\'; line-height: normal;">http://epeopletoday.com/detail.php?number=1888&amp;thread=11r02</a><br style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal;"><br style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal;"><br style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal;"><font color="#000000" size="3" style="font-family: \'Apple SD Gothic Neo\'; line-height: normal;"><strong>한국뉴스투데이 보도</strong></font><br style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal;"><font style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal; background-color: rgb(255, 255, 255);"><font color="#0021b0"><strong><font size="3">지붕 방수공사 ”최첨단 공법으로 시공하세요”</font></strong></font></font><span style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal; background-color: rgb(255, 255, 255);">&nbsp;</span><br style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal;"><br style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal;"><span style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal; background-color: rgb(255, 255, 255);">-&gt;&nbsp;</span><a href="http://koreanewstoday.co.kr/detail.php?number=22027&amp;thread=22r04r03" style="color: rgb(102, 102, 102); text-decoration: none; font-family: \'Apple SD Gothic Neo\'; line-height: normal;">http://koreanewstoday.co.kr/detail.php?number=22027&amp;thread=22r04r03</a><br style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal;"><br style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal;"><br style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal;"><p><span style="color: rgb(102, 102, 102); font-family: \'Apple SD Gothic Neo\'; line-height: normal; background-color: rgb(255, 255, 255);">하이포텍스쿨에 대해 뉴스에 보도가 되었습니다.</span>&nbsp;</p>',
+    'wr_link1' => '',
+    'wr_link2' => '',
+    'wr_link1_hit' => '0',
+    'wr_link2_hit' => '0',
+    'wr_hit' => '332',
+    'wr_good' => '0',
+    'wr_nogood' => '0',
+    'mb_id' => 'choongangs',
+    'wr_password' => '*3D922361A3B48521511B925C0ED6FBCF0B5D4DFD',
+    'wr_name' => '중앙산업개발(주)',
+    'wr_email' => 'choongangs@hanmail.net',
+    'wr_homepage' => '',
+    'wr_datetime' => '2015-09-08 17:38:41',
+    'wr_file' => '0',
+    'wr_last' => '2015-09-08 18:14:44',
+    'wr_ip' => '211.218.24.140',
+    'wr_facebook_user' => '',
+    'wr_twitter_user' => '',
+    'wr_1' => '',
+    'wr_2' => '',
+    'wr_3' => '',
+    'wr_4' => '',
+    'wr_5' => '',
+    'wr_6' => '',
+    'wr_7' => '',
+    'wr_8' => '',
+    'wr_9' => '',
+    'wr_10' => '',
+    'is_notice' => false,
+    'subject' => '[보도] 지붕 방수공사 최첨단 공법 \'하이포텍…',
+    'comment_cnt' => '<span class="cnt_cmt">1</span>',
+    'datetime' => '2015-09-08',
+    'datetime2' => '09-08',
+    'last' => '2015-09-08',
+    'last2' => '09-08',
+    'name' => '<span class="sv_member">중앙산업개발(주)</span>',
+    'reply' => 0,
+    'icon_reply' => '',
+    'icon_link' => '',
+    'ca_name_href' => 'http://remainlab5.godohosting.com/bbs/board.php?bo_table=news&amp;sca=',
+    'href' => 'http://remainlab5.godohosting.com/bbs/board.php?bo_table=news&amp;wr_id=7',
+    'comment_href' => 'http://remainlab5.godohosting.com/bbs/board.php?bo_table=news&amp;wr_id=7',
+    'icon_new' => '',
+    'icon_hot' => '<img src="http://remainlab5.godohosting.com/skin/latest/basic/img/icon_hot.gif" alt="인기글">',
+    'icon_secret' => '',
+    'link' => 
+    array (
+      1 => NULL,
+      2 => NULL,
+    ),
+    'link_href' => 
+    array (
+      1 => 'http://remainlab5.godohosting.com/bbs/link.php?bo_table=news&amp;wr_id=7&amp;no=1',
+      2 => 'http://remainlab5.godohosting.com/bbs/link.php?bo_table=news&amp;wr_id=7&amp;no=2',
+    ),
+    'link_hit' => 
+    array (
+      1 => 0,
+      2 => 0,
+    ),
+    'file' => 
+    array (
+      'count' => '0',
+    ),
+  ),
+)?>
