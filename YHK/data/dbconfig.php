@@ -1,9 +1,9 @@
 <?php
 if (!defined('_GNUBOARD_')) exit;
-define('G5_MYSQL_HOST', 'localhost');
-define('G5_MYSQL_USER', 'remainlab5');
-define('G5_MYSQL_PASSWORD', 'jj1831088');
-define('G5_MYSQL_DB', 'remainlab5_godohosting_com');
+define('G5_MYSQL_HOST', '127.0.0.1');
+define('G5_MYSQL_USER', 'khk');
+define('G5_MYSQL_PASSWORD', 'ssy1125');
+define('G5_MYSQL_DB', 'yhkkorea');
 define('G5_MYSQL_SET_MODE', false);
 
 define('G5_TABLE_PREFIX', 'g5_');
